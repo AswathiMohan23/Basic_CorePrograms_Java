@@ -17,22 +17,16 @@ public class FlipCoin {
         if(times==(int) times) {
             for (int i = 0; i < times; i++) {
                 randomCheck = (int) (Math.random() * (1 - 0 + 1) + 0);
-
                 if (randomCheck < 0.5) {
-                    System.out.println("Head");
                     head=head+1;
                 } else {
-                    System.out.println("Tail");
-                    tail=tail+1;
-                }
+                    tail=tail+1;}
             }
         }
         float percentage_Head=findPercentage(head,limit);
                 System.out.println("Percentage of occurrence of Head = "+percentage_Head+"%");
                 float percentage_Tail=findPercentage(tail,limit);
                 System.out.println("Percentage of occurrence of Tail = "+percentage_Tail+"%");
-
-
     }
     public static float findPercentage(int side,int times) {
         float percentage=(float)(side*100)/times;
