@@ -25,8 +25,8 @@ public class Array2D {
         }
         //printing the array
         System.out.println("the 2D array is   : ");
-        for(i=0;i<rowSize;i++){
-            for(j=0;j<columnSize;j++){
+        for(i=0;i< array.length;i++){
+            for(j=0;j< array.length;j++){
                 System.out.println(array[i][j]+ " ");
             }
             System.out.println();
