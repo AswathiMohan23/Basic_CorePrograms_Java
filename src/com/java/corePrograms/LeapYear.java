@@ -1,4 +1,4 @@
-package com.java;
+package com.java.corePrograms;
 
 import java.util.Scanner;
 //The LeapYear program only works for year >= 1582, corresponding to a year in the Gregorian calendar.

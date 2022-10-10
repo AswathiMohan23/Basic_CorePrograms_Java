@@ -1,4 +1,4 @@
-package com.java;
+package com.java.corePrograms;
 
 //Desc -> Prints the Nth harmonic number: 1/1 + 1/2 + ... + 1/N
 //(http://users.encs.concordia.ca/~chvatal/notes/harmonic.html).

@@ -1,4 +1,4 @@
-package com.java;
+package com.java.corePrograms;
 import java.util.Scanner;
 
 //1. Write a Program to Check whether an alphabet is Vowel or Consonant

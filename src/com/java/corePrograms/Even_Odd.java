@@ -1,4 +1,4 @@
-package com.java;
+package com.java.corePrograms;
 
 // Java Program to Check Whether a Number is Even or Odd
 // =====================================================

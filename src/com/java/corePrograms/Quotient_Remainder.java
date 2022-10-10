@@ -1,4 +1,4 @@
-package com.java;
+package com.java.corePrograms;
 
 //Java Program to Compute Quotient and Remainder
 
