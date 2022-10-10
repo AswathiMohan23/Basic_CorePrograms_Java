@@ -14,8 +14,5 @@ public class SwapNumbers {
         secondNo=firstNo;
         firstNo=temp;
         System.out.println("After swap the result is : \nFirst no ==> "+firstNo+"\nSecond no ==> "+secondNo);
-
-
-
     }
 }

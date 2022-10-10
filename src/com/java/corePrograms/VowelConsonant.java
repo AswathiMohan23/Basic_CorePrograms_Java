@@ -29,6 +29,5 @@ public class VowelConsonant {
                 System.out.println("alphabet = "+alphabet +" ie, a consonant");
                 break;
         }
-
     }
 }

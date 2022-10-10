@@ -15,8 +15,5 @@ public class QuotientRemainder {
         int remainder = dividend%divisor;
         System.out.println("enter the remainder = "+remainder);
         System.out.println("enter the quotient = "+quotient);
-
-
-
-    }
+        }
 }
