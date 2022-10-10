@@ -8,7 +8,7 @@ package com.java.corePrograms;
 
 import java.util.Scanner;
 
-public class Harmonic_Numbers {
+public class HarmonicNumbers {
     public static void main(String[] args) {
         float sum = 0; // use long
         Scanner sc = new Scanner(System.in);

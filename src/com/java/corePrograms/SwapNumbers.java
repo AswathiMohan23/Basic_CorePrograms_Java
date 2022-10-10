@@ -3,7 +3,7 @@ package com.java.corePrograms;
 import java.util.Scanner;
 
 // Java Program to Swap Two Numbers
-public class Swap_Numbers {
+public class SwapNumbers {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("First no : ");

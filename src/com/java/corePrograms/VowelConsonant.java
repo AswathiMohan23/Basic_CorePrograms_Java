@@ -4,7 +4,7 @@ import java.util.Scanner;
 //1. Write a Program to Check whether an alphabet is Vowel or Consonant
 //   ==================================================================
 
-public class Vowel_Consonant {
+public class VowelConsonant {
     public static void main(String[] args){
         System.out.println("Enter the alphabet : ");
         Scanner sc=new Scanner(System.in);
