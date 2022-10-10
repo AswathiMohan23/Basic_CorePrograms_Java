@@ -9,20 +9,19 @@ package com.java.functional;
 import java.util.Scanner;
 import static java.lang.Math.sqrt;
 
-public class Quadratic_Equation {
+public class QuadraticEquation {
     public static void main(String[] args) {
         System.out.println("enter the value of a : ");
         Scanner sc = new Scanner(System.in);
-        double a = sc.nextDouble();
+        double aValue = sc.nextDouble();
         System.out.println("enter the value of b : ");
-        double b = sc.nextDouble();
+        double bValue = sc.nextDouble();
         System.out.println("enter the value of c : ");
-        double c = sc.nextDouble();
-        double delta = ((b * b) - (4 * a * c));
+        double cValue = sc.nextDouble();
+        double delta = ((bValue * bValue) - (4 * aValue * cValue));
         System.out.println("value of ((b*b)-(4*a*c))  : " + delta);
-        double root1 = (-b + sqrt(delta)) / (2 * a);
-        double root2 = (-b - sqrt(delta)) / (2 * a);
+        double root1 = (-bValue + sqrt(delta)) / (2 * aValue);
+        double root2 = (-bValue - sqrt(delta)) / (2 * aValue);
         System.out.println("root 1 : " + root1 + "root 2 : " + root2);
-
     }
 }

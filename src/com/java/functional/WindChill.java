@@ -14,15 +14,15 @@ public class WindChill {
     public static void main(String[] args) {
         System.out.println("enter the value of temperature in fahrenheit (less than 50) : ");
         Scanner sc = new Scanner(System.in);
-        double t = sc.nextDouble();
+        double temperature = sc.nextDouble();
         System.out.println("enter the wind speed in miles per hour (speed>120 or speed <3) : ");
-        double v = sc.nextDouble();
-        if((t<50)&&((v>120)||(v<3))){
-            double speed=Math.pow(v,0.16);
-            double a=  ((0.4275*t) - 35.75);
-            double w =35.74+(0.6215*t)+(a*speed);
+        double velocity = sc.nextDouble();
+        if((temperature<50)&&((velocity>120)||(velocity<3))){
+            double speed=Math.pow(velocity,0.16);
+            double product=  ((0.4275*temperature) - 35.75);
+            double windChill =35.74+(0.6215*temperature)+(product*speed);
             System.out.println("Wind chill ,W=35.74+0.6215t+(0.4275t-35.75)v^0.16  ");
-            System.out.println("result = "+w);
+            System.out.println("result = "+windChill);
         }else
             System.out.println("temperature  should be larger than 50 \n " +
                     "speed should be larger than 120 and less than 3");

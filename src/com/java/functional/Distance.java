@@ -8,13 +8,12 @@ public class Distance {
     public static void main(String[] args) {
         System.out.println("enter the value of X co-ordinate : ");
         Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
+        int xCordinate = sc.nextInt();
         System.out.println("enter the value of Y co-ordinate : ");
-        int y = sc.nextInt();
-        int power_x= (int) Math.pow(x,2);
-        int power_y=(int) Math.pow(y,2);
-        double distance =(power_x+power_y);
+        int yCordinate = sc.nextInt();
+        int powerOfX= (int) Math.pow(xCordinate,2);
+        int powerOfY=(int) Math.pow(yCordinate,2);
+        double distance =(powerOfX+powerOfY);
         System.out.println("Euclidean distance  : "+distance);
-
     }
 }
