@@ -10,14 +10,15 @@ import java.util.Scanner;
 
 public class Harmonic_Numbers {
     public static void main(String[] args) {
-        float sum = 0;
+        float sum = 0; // use long
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the 1st no : ");
         int number=sc.nextInt();
         for (int i = 2; i <= number; i++) {
             float harmonic = (float) 1 / i;
             sum = sum + harmonic;
-            System.out.println(sum);}
+            System.out.println(sum);
+        }
         System.out.print("\nnth Harmonic number = " + sum+"\n");
     }
 }
