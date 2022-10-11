@@ -7,13 +7,16 @@ package com.java.corePrograms;
 import java.util.Scanner;
 
 public class FlipCoin {
-    public static void main(String[] args){
-        double randomCheck = 0;
-        int head=0,tail=0;
-        Scanner sc=new Scanner(System.in);
+    static double randomCheck = 0;
+    static int head = 0, tail = 0;
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         System.out.println("how many times do want to flip the coin : ");
-        int times=sc.nextInt();
-        int limit=times;
+        int times = sc.nextInt();
+        int limit = times;
+        checkTheOccurrence(times,limit);
+    }
+    public static void checkTheOccurrence(int times, int limit) {
         if(times==(int) times) {
             for (int i = 0; i < times; i++) {
                 randomCheck = (int) (Math.random() * (1 - 0 + 1) + 0);
@@ -27,9 +30,9 @@ public class FlipCoin {
             }
         }
         float percentage_Head=findPercentage(head,limit);
-                System.out.println("\nPercentage of occurrence of Head = "+percentage_Head+"%");
-                float percentage_Tail=findPercentage(tail,limit);
-                System.out.println("Percentage of occurrence of Tail = "+percentage_Tail+"%");
+        System.out.println("\nPercentage of occurrence of Head = "+percentage_Head+"%");
+        float percentage_Tail=findPercentage(tail,limit);
+        System.out.println("Percentage of occurrence of Tail = "+percentage_Tail+"%");
     }
     public static float findPercentage(int side,int times) {
         float percentage=(float)(side*100)/times;
