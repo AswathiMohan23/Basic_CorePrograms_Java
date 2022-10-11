@@ -10,9 +10,9 @@ public class Distance {
         Scanner sc = new Scanner(System.in);
         int xCoordinate = sc.nextInt();
         System.out.println("enter the value of Y co-ordinate : ");
-        int yCordinate = sc.nextInt();
+        int yCoordinate = sc.nextInt();
         int powerOfX= (int) Math.pow(xCoordinate,2);
-        int powerOfY=(int) Math.pow(yCordinate,2);
+        int powerOfY=(int) Math.pow(yCoordinate,2);
         double distance =Math.sqrt(powerOfX+powerOfY);
         System.out.println("Euclidean distance  : "+distance);
     }
