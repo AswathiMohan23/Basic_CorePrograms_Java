@@ -16,6 +16,7 @@ public class LeapYear {
                 System.out.println("Leap year");
             else
                 System.out.println("Not Leap year : ");
-        }
+        }else
+            System.out.println("Year should be greater than 1582 so check and try again ");
     }
 }
