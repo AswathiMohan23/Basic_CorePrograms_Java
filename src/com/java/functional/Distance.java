@@ -13,7 +13,7 @@ public class Distance {
         int yCordinate = sc.nextInt();
         int powerOfX= (int) Math.pow(xCordinate,2);
         int powerOfY=(int) Math.pow(yCordinate,2);
-        double distance =(powerOfX+powerOfY);
+        double distance =Math.sqrt(powerOfX+powerOfY);
         System.out.println("Euclidean distance  : "+distance);
     }
 }
