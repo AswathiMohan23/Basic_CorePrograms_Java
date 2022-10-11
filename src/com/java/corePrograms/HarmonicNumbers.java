@@ -12,7 +12,7 @@ public class HarmonicNumbers {
     public static void main(String[] args) {
         float sum = 0; // use long
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the 1st no : ");
+        System.out.println("Enter the nth no : ");
         int number=sc.nextInt();
         for (int i = 2; i <= number; i++) {
             float harmonic = (float) 1 / i;
