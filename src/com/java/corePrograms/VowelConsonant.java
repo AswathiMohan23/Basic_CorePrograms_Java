@@ -10,6 +10,21 @@ public class VowelConsonant {
         Scanner sc=new Scanner(System.in);
         char alphabet=sc.next().charAt(0);
         switch(alphabet){
+            case 'A':
+                System.out.println("alphabet = A ie, a vowel");
+                break;
+            case 'E':
+                System.out.println("alphabet = E ie, a vowel");
+                break;
+            case 'I':
+                System.out.println("alphabet = I ie, a vowel");
+                break;
+            case 'O':
+                System.out.println("alphabet = O ie, a vowel");
+                break;
+            case 'U':
+                System.out.println("alphabet = U ie, a vowel");
+                break;
             case 'a':
                 System.out.println("alphabet = a ie, a vowel");
                 break;
