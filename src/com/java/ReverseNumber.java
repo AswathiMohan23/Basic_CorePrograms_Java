@@ -21,6 +21,5 @@ public class ReverseNumber {
             number = number / 10;                    //number=123/10=12
         }
         System.out.println("Reversed no = " + reverse);
-
     }
 }
