@@ -7,6 +7,7 @@ package com.java;
 
 import java.util.Scanner;
 
+
 public class PrimeNumber {
     public static void main(String[] args) {
         int flag = 0;
